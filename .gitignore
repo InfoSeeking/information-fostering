@@ -1,2 +1,5 @@
-
+data/external/*
+data/interim/*
+data/processed/*
+data/raw/*
 config.ini
