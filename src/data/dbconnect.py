@@ -29,6 +29,8 @@ def connect_with_config(path_to_config=None):
         )
 
         server.start()
+        import time
+        time.sleep(1)
         local_port = str(server.local_bind_port)
         engine = create_engine('mysql+mysqlconnector://%s:%s@%s:%s/%s'%(username_mysql,password_mysql,host_mysql,local_port,dbname))
 

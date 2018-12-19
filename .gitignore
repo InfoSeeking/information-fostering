@@ -3,3 +3,6 @@ data/interim/*
 data/processed/*
 data/raw/*
 config.ini
+src/data/__pycache__/dbconnect.cpython-36.pyc
+.idea/workspace.xml
+notebooks/.ipynb_checkpoints/rq1to7-checkpoint.ipynb
